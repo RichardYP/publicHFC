@@ -1,5 +1,5 @@
 # publicHFC
-Past public project
+Past project
 
 The manager of the e-commerce company agreed with me to share part of the python package and MySQL script code, including the use of machine learning packages.
 
