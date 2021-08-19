@@ -6,7 +6,8 @@ FROM
 		WHERE re.TM = tob.tid
 		AND re.Article = p.Reference) AS A
 INNER JOIN
-    (SELECT T1.*,T2.New_Reference,T2.New_Category,T2.New_SubCategory,T2.New_Collection FROM
+    (SELECT T1.*,T2.New_Reference,T2.New_Category,T2.New_SubCategory,T2.New_Collection 
+    	FROM
 		(SELECT ob.buyer_open_uid,ob.created,ob.tid,
 			LEAD(ob.created,1) OVER (
 				PARTITION BY ob.buyer_open_uid
@@ -24,6 +25,6 @@ INNER JOIN
 				FROM cartier_bi.t_order_item AS o, cartier_bi.pfs_product AS p
 				WHERE p.Reference = o.outer_sku_id
 			) AS T2
-		ON T1.nextOrder_tid = T2.nextOrder_tid
-		WHERE T1.diff <= 30) AS B
+	ON T1.nextOrder_tid = T2.nextOrder_tid
+	WHERE T1.diff <= 30) AS B
 ON A.tid = B.tid;
