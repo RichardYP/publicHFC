@@ -1,4 +1,4 @@
-# Part of the project in e-commerce company
+# Some parts of projects in e-commerce company
 
 ## SelectWords.py
 ###### Background of the project: 
