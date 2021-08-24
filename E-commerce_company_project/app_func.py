@@ -86,17 +86,17 @@ def getData(database,product,password,address,port,user):
     Parameters
     ----------
     database : STRING
-        数据库名称，例cartier_bi.
+        数据库名称
     product : STRING
-        产品名称，例Cartier卡地亚LOVE戒指经典款 玫瑰金黄金白金.
+        产品名称
     password : STRING
-        数据库密码，IZ0uyUBJGDWvLY4g.
+        数据库密码
     address : STRING
-        数据库地址，rm-uf6o697os5n5x7q50ko.mysql.rds.aliyuncs.com.
+        数据库地址
     port : STRING
-        数据库端口，3306.
+        数据库端口
     user : STRING
-        数据库用户名，cartier_bi.
+        数据库用户名
 
     Returns
     -------
