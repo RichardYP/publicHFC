@@ -1,14 +1,14 @@
 # publicHFC
 Past projects
 
-## Updated: 
+#### Updated: 
 
 Just uploaded the part of a project I completed in the quantitative financial company
 
 August 30,2021
 
 
---------------------------------------------------------Original---------------------------------------------------------------
+-----------------------------------------------------------------Original-----------------------------------------------------------------------
 
 The manager of the e-commerce company agreed with me to share part of the python package and MySQL script code, These code including the use of ready-made machine learning model packages.
 
