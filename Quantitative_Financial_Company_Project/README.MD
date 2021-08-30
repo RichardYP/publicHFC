@@ -30,7 +30,8 @@ Design:
 
 3. Determine the stock weight information of the benchmark CSI 300, CSI 500 or CSI 800 according to the fund performance comparison benchmark
   
-          *This strategy only considers active funds, excluding theme funds, index tracking funds, quantitative funds, etc., and only retains public funds that benchmark the above three indexes, and excludes other funds.
+          *This strategy only considers active funds, excluding theme funds, index tracking funds, quantitative funds, etc.,
+          and only retains public funds that benchmark the above three indexes, and excludes other funds.
 
 
 
