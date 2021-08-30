@@ -1,4 +1,4 @@
--------------------------------------------------- --------Indices enhancement strategy for benchmarking CSI 300 and CSI 500----------------------------- ----------------------------
+--------------------------------------------------Indices enhancement strategy for benchmarking CSI 300 and CSI 500------------------------------------------------
 
 Type: stock picking strategy
 
