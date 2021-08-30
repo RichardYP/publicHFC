@@ -350,7 +350,6 @@ for file in file_list:
 #print(AlphaSize)
 #AlphaSize.to_csv(path_alpha+'Alpha_Size.csv',encoding='utf-8-sig',index=False)
 
-
 #Alpha_rank(Alpha)
 
 """
