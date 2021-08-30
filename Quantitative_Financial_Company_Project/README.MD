@@ -11,7 +11,8 @@ Design:
   Data content:
   
     a) The accumulated net value on the day when the position is disclosed (2020-9-30, 2020-6-30, 2020-3-31, 2019-12-31)
-    b) The cumulative net value of the position one year before the disclosure date (if it was established less than one year, it will be recorded as the initial net value 1)
+    b) The cumulative net value of the position one year before the disclosure date (if it was established less than one year, 
+    it will be recorded as the initial net value 1)
     c) Calculate the annual growth rate
     
 
@@ -20,7 +21,8 @@ Design:
   
   Data content:
   
-    a) Stock code, name, number of positions, market value of positions, and percentage of the total market value of the fund
+    a) Stock code, name, number of positions, market value of positions, 
+    and percentage of the total market value of the fund
     b) Obtain the market value of all stocks of the fund in the quarter
     c) Calculate the proportion of stocks to the total stock market value
 
@@ -62,7 +64,8 @@ Design:
 
 6. Build a portfolio
 
-       a) Arrange the stocks of different disclosure periods in descending order of Alpha value and divide them into 5 groups, each of which contains 20% of the stocks
+       a) Arrange the stocks of different disclosure periods in descending order of Alpha value and divide them into 5 groups,
+       each of which contains 20% of the stocks
 
        b) The number of stocks is allocated according to the weight of the stock’s Alpha in the total Alpha value, with a unit of 100
 
